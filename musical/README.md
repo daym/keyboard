@@ -57,18 +57,18 @@ Big Front Panel Connector
 =========================
 
   [                ]
-   |||||||||||||||+-- GND for a LED, with built-in resistor
-   ||||||||||||||+--- positive terminal for a lot of LEDs
-   |||||||||||||+---- positive terminal for a lot of LEDs
-   ||||||||||||+----- GND for a LED, with built-in resistor
-   |||||||||||+------ GND for a LED, with built-in resistor
-   ||||||||||+------- GND for a LED, with built-in resistor
-   |||||||||+-------- GND for a LED, without built-in resistor
-   ||||||||+--------- GND for a LED, without built-in resistor
-   |||||||+---------- GND for a LED, without built-in resistor
-   ||||||+----------- GND for a LED, without built-in resistor
-   |||||+------------ GND for a LED, without built-in resistor
-   ||||+------------- GND for a LED, without built-in resistor
+   |||||||||||||||+-- 
+   ||||||||||||||+--- 
+   |||||||||||||+---- 
+   ||||||||||||+----- 
+   |||||||||||+------ 
+   ||||||||||+------- 
+   |||||||||+-------- 
+   ||||||||+--------- 
+   |||||||+---------- 
+   ||||||+----------- 
+   |||||+------------ 
+   ||||+------------- 
    |||+-------------- unshared
    ||+--------------- unshared
    |+---------------- unshared
