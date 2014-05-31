@@ -1,0 +1,10 @@
+#!/bin/sh
+set -e
+if [ -z "$1" ]
+then
+	echo "usage: $0 <image>">&2
+	exit 1
+fi
+dfu-programmer at90usb82 erase
+dfu-programmer at90usb82 flash --debug 1 "$1"
+dfu-programmer at90usb82 reset
