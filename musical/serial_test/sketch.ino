@@ -1,8 +1,8 @@
 #include <Arduino.h>
 //#include <Keypad.h>
 
-const byte ROWS = 12; //four rows
-const byte COLS = 6; //three columns
+const byte ROWS = 12;
+const byte COLS = 6;
 /*
 
 Gertboard
