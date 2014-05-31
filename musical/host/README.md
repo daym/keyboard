@@ -24,3 +24,5 @@ IO  hw:1,0,0  LUFA MIDI Demo MIDI 1
 ./alsarawmidiin
 
 (Press some keys on the keyboard and the PC should show some messages)
+
+See also https://ccrma.stanford.edu/~craig/articles/linuxmidi/alsa-1.0/
