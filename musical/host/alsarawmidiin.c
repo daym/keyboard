@@ -75,20 +75,17 @@ int main(int argc, char *argv[]) {
    int maxcount = 1000;   // Exit after this many bytes have been received.
    int count = 0;         // Current count of bytes received.
    char buffer[1];        // Storage for input buffer received
-   while (count < maxcount) {
+   while (count < maxcount || 1 == 1) {
       if ((status = snd_rawmidi_read(midiin, buffer, 1)) < 0) {
          errormessage("Problem reading MIDI input: %s", snd_strerror(status));
       }
       count++;
       if ((unsigned char)buffer[0] >= 0x80) {   // command byte: print in hex
-         printf("0x%x ", (unsigned char)buffer[0]);
+         printf("\n0x%x ", (unsigned char)buffer[0]);
       } else {
          printf("%d ", (unsigned char)buffer[0]);
       }
       fflush(stdout);
-      if (count % 20 == 0) {  // print a newline to avoid line-wrapping
-         printf("\n");
-      }
    }
 
    snd_rawmidi_close(midiin);
