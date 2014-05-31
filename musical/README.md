@@ -14,9 +14,12 @@ The keyboard is connected by two connectors:
 A small connector of 6 pins and a big connector of 12 pins.
 
 On the small connector the cable colors are, among others, as follows:
+  * blue: second-higest octave (WTF)
   * green: lowest octave
-  * yellow
+  * yellow: second-lowest octave
   * orange
+  * red
+  * brown: higest octave
   ...
 
 The big connector was in parallel with most of the big front panel connector.
