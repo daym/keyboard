@@ -1,4 +1,5 @@
-= Musical Keyboard Firmware =
+Musical Keyboard Firmware
+=========================
 
 I got a broken MC-68A STEREO ELECTRONIC KEYBOARD. 
 
