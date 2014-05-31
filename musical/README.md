@@ -73,3 +73,10 @@ Big Front Panel Connector
      ||+--------------- unshared
      |+---------------- unshared
      +----------------- unshared; minus of diode. Plus connects to third, second and first row in the keypad.
+
+Front Panel 7-Segment Connector
+===============================
+
+11 pins.
+
+Works like any other 7-Segment and is not documented here.
