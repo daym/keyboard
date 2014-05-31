@@ -12,3 +12,15 @@ in lsusb and as
 
 in dmesg.
 
+= Usage =
+
+make
+./alsarawportlist 
+
+Dir Device    Name
+====================================
+IO  hw:1,0,0  LUFA MIDI Demo MIDI 1
+
+./alsarawmidiin
+
+(Press some keys on the keyboard and the PC should show some messages)
