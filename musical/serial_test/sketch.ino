@@ -35,11 +35,11 @@ byte columnPins[COLS] = {A1, A2, A3, A4, A0, A5}; //connect to the column pinout
 //static uint bitmap[ROWS*COLS];
 void setup(){
   Serial.begin(9600);
+  for(byte r = 0; r < ROWS; r++)
+    pinMode(rowPins[r],INPUT_PULLUP);
 }
 
 void loop(){
-  for(byte r = 0; r < ROWS; r++)
-    pinMode(rowPins[r],INPUT_PULLUP);
   Serial.print(millis());
   Serial.write(' ');
   for(byte c = 0; c < COLS; c++) {
