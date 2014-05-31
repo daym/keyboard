@@ -30,13 +30,13 @@ The front panel was connected to the mainboard by two connectors, a 16 pin conne
 Most of the 16 pin connector is in parallel with the big keyboard connector.
 The pinouts for those connectors, seen from below the panel, with the four leds in a square to the right side of it, are:
 
-             [777]                                                       0 1 2 3
-                                                                         B B B B
-    Tone Rhythm   Sync Metro BeatUp   Tempo    Dual     Midi     Voice   - 4 5 6   Sustain  Transposer   Drum1 Drum2 Drum3 Drum4 Drum5     PercuOff  Stereo
---   ^   ^         B     B     B        ^    L  B       B    L   B       B B B B     B         ^                                                     L B
-                                                                         + 7 8 9         L                 B     B     B     B     B      L B         
---   v   v         B     B     B        v    L  B   B   B    L   B       B B B B     B         v                                                       B
-                  Intr Start Ending            Off Sngl Fingered Style             Vibrato                                                            Demo
+                 [777]                                                       0 1 2 3
+                                                                             B B B B
+        Tone Rhythm   Sync Metro BeatUp   Tempo    Dual     Midi     Voice   - 4 5 6   Sustain  Transposer   Drum1 Drum2 Drum3 Drum4 Drum5     PercuOff  Stereo
+    --   ^   ^         B     B     B        ^    L  B       B    L   B       B B B B     B         ^                                                     L B
+                                                                             + 7 8 9         L                 B     B     B     B     B      L B         
+    --   v   v         B     B     B        v    L  B   B   B    L   B       B B B B     B         v                                                       B
+                      Intr Start Ending            Off Sngl Fingered Style             Vibrato                                                            Demo
 
 Small Front Panel Connector
 ===========================
@@ -56,20 +56,20 @@ Small Front Panel Connector
 Big Front Panel Connector
 =========================
 
-  [                ]
-   |||||||||||||||+-- 
-   ||||||||||||||+--- 
-   |||||||||||||+---- 
-   ||||||||||||+----- 
-   |||||||||||+------ 
-   ||||||||||+------- 
-   |||||||||+-------- 
-   ||||||||+--------- 
-   |||||||+---------- 
-   ||||||+----------- 
-   |||||+------------ 
-   ||||+------------- 
-   |||+-------------- unshared
-   ||+--------------- unshared
-   |+---------------- unshared
-   +----------------- unshared; minus of diode. Plus connects to third, second and first row in the keypad.
+    [                ]
+     |||||||||||||||+-- 
+     ||||||||||||||+--- 
+     |||||||||||||+---- 
+     ||||||||||||+----- 
+     |||||||||||+------ 
+     ||||||||||+------- 
+     |||||||||+-------- 
+     ||||||||+--------- 
+     |||||||+---------- 
+     ||||||+----------- 
+     |||||+------------ 
+     ||||+------------- 
+     |||+-------------- unshared
+     ||+--------------- unshared
+     |+---------------- unshared
+     +----------------- unshared; minus of diode. Plus connects to third, second and first row in the keypad.
